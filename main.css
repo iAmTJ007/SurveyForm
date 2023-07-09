@@ -1,0 +1,10 @@
+body{
+    color: white;
+    text-align: center;
+    font-family: 'Ysabeau Infant', sans-serif;
+    background-image: url(survey-form-background.jpeg)
+}
+.span1{
+    color: rgb(241, 221, 221);
+    font-size: small;
+}
