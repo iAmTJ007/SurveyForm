@@ -1,22 +1,35 @@
 body{
     color: white;
-     text-align: center; 
+    text-align: center; 
     font-family: 'Ysabeau Infant', sans-serif;
     background-image: url(survey-form-background.jpeg);
+    font-size: 1.5rem;
     
 }
+h2{
+    font-size: 1.5rem;
+}
+
 .span1{
     color: rgb(241, 221, 221);
     font-size: small;
 }
 form{
     padding-top: 3rem;
-    padding-right: 30rem;
-    padding-left: 30rem;
+    padding-bottom: 5rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
     text-align: left;
+    background-color: rgb(103, 103, 186);
+    margin-top: 8rem;
+    margin-right: 25rem;
+    margin-left: 25rem;
+    
 }
 .group{
     display: flex;
     flex-direction: column;
     justify-content: left;
+    
+    padding-bottom: 1.2rem;
 }

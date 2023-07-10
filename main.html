@@ -67,29 +67,38 @@
             </div>
             
         
+            <div class="group">
+                <label for="dropdown">
+                    What is your Gender?
+                </label>
+                <select name="dropdown2" id="dropdown2">
+                    <option disabled selected value>Select an option</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
             
-            <label for="dropdown">
-                What is your Gender?
-            </label>
-            <select name="dropdown2" id="dropdown2">
-                <option disabled selected value>Select an option</option>
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-                <option value="other">Other</option>
-            </select>
             <h2>What are you currently learning?<span class="span1"> (Check all that apply)</span></h2>
-            <label for="frontend">
-                <input type="checkbox" id="frontend" name="frontend" value="frontend">
-                Front-end development
-            </label>
-            <label for="backend">
-                <input type="checkbox" id="backend" name="backend" value="backend">
-                Back-end development
-            </label>
-            <label for="machinelearning">
-                <input type="checkbox" id="machinelearning" name="machinelearning" value="machinelearning"> 
-                Machine Learning
-            </label>
+            <div>
+                <label for="frontend">
+                    <input type="checkbox" id="frontend" name="frontend" value="frontend">
+                    Front-end development
+                </label>
+            </div>
+            <div>
+                <label for="backend">
+                    <input type="checkbox" id="backend" name="backend" value="backend">
+                    Back-end development
+                </label>
+            </div>
+            <div>
+                <label for="machinelearning">
+                    <input type="checkbox" id="machinelearning" name="machinelearning" value="machinelearning"> 
+                    Machine Learning
+                </label>
+            </div>
+            
 
             <h2>Type any comments you have</h2>
             <textarea name="ta" id="ta" cols="60" rows="5" placeholder="Feel free to tell us here..."></textarea>
